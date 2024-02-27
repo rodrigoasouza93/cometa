@@ -23,7 +23,9 @@ Install dependencies(terminal):
 
     Access folder backend(terminal), if you have not yet accessed:
         cd backend  
-    Run a command on terminal:
+    Run this commands on terminal:
+        python3 -m venv venv or python -m venv venv
+        source venv/bin/activate
         uvicorn main.server:app
     The server will be running on port 8000, and should be found by accessing the url: http://127.0.0.1:8000 or http://localhost:8000
 
