@@ -2,10 +2,14 @@
 
 ## Setup projects
 
-### Backend Python API - SETUP
-
 Clone this repo:
     <https://github.com/rodrigoasouza93/cometa>
+
+You must have installed on your machine nodejs and python
+<https://nodejs.org/>
+<https://www.python.org/>
+
+### Backend Python API - SETUP
 
 Access folder backend(terminal):
     cd backend
@@ -15,23 +19,29 @@ Install dependencies(terminal):
 
 ### Frontend cliente - SETUP
 
-    TODO
+    Access folder frontend(terminal):
+        cd frontend
+
+    install dependencies(terminal):
+        npm install
 
 ## Run Projects
 
 ### Backend Python API
 
     Access folder backend(terminal), if you have not yet accessed:
-        cd backend  
-    Run this commands on terminal:
-        python3 -m venv venv or python -m venv venv
-        source venv/bin/activate
+        cd backend
+    Run a command on terminal:
         uvicorn main.server:app
     The server will be running on port 8000, and should be found by accessing the url: http://127.0.0.1:8000 or http://localhost:8000
 
 ### Frontend client
 
-    TODO
+    Access folder frontend(terminal), if you have not yet accessed:
+        cd frontend
+    Run a command on terminal:
+        npm run dev
+    The application will be running on port 5173, and should be found by accessing the url: http://127.0.0.1:5173 or http://localhost:5173
 
 ## Consume API
 
