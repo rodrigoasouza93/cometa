@@ -37,6 +37,7 @@ Install dependencies(terminal):
 
 ### Frontend client
 
+    *To run frontend application you should run before backend application*
     Access folder frontend(terminal), if you have not yet accessed:
         cd frontend
     Run a command on terminal:
